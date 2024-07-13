@@ -1,0 +1,60 @@
+/* font-styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.banner-section-container{
+    max-width: 1440px;
+    height: 650px;
+    /* সব সময় border দিয়ে layout make করে ফেলব = Parent-Layout, তাহলে বোঝা যাবে = কোন জায়গায় কোন জিনিস  বসাবো */
+    /* border: 2px solid red; emni*/
+    background: rgba(229, 84, 115, 0.1);
+    
+}
+.banner-content{
+    display: flex;
+    /* border: 2px solid indianred; */
+    /* se tar 100% theke 10% baad dise(daan dik theke baad dise), width hoy left to right basically */
+    width: 90%;
+    /* Amic caitasi tumi shudhu daan dik thke na chere, baam dik theke 5 and daan dik theke 5 charo */
+    margin: 0 auto;
+
+}
+.banner-text-container{
+    /* Figma te er h/w nai || since dekhle bujha jai duita 50/50 = 50 kore vG */
+    width: 50%;
+    /* border: 2px solid green; emni */
+    height: 650px;
+    /* Amar content guli full screen niye, upore-niche r majhe lagbe hobe */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image-container{
+    width: 50%;
+    /* border: 2px solid blue; emni */
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+.banner-image-container img{
+    width: 50%;
+    height: 650px;
+}
+.banner-text-container button{
+  margin-right: 495px;
+  width: 150px;
+  height: 45px;
+  background-color: rgb(229, 84, 115);
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+
+}
