@@ -9,6 +9,7 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
 .banner-section-container{
     max-width: 1440px;
     height: 650px;
@@ -28,7 +29,7 @@ body{
 }
 .banner-text-container{
     /* Figma te er h/w nai || since dekhle bujha jai duita 50/50 = 50 kore vG */
-    width: 50%;
+    width: 40%;
     /* border: 2px solid green; emni */
     height: 650px;
     /* Amar content guli full screen niye, upore-niche r majhe lagbe hobe */
@@ -45,16 +46,62 @@ body{
     justify-content: center;
 }
 .banner-image-container img{
-    width: 50%;
+    width: 60%;
     height: 650px;
+    /* border: 2px solid black; */
 }
 .banner-text-container button{
-  margin-right: 495px;
+  margin-right: 390px;
   width: 150px;
   height: 45px;
   background-color: rgb(229, 84, 115);
   border: none;
   border-radius: 2px;
   margin-top: 10px;
+}
 
+.featured-image-container{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 124px;
+}
+.featured-title{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-images{
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid violet; */
+    margin-top: 80px;
+}
+
+.first-image, 
+.second-image, 
+.third-image{
+    width: 450px;
+    height: 520px;
+    border: 2px solid indianred;
+    border-radius: 50% 50% 0 0;
+    /* oi image ta majhamajhi te chole ashbe */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#first{
+   background-color: #f2dee7; 
+}
+#second{
+   background-color: #daf0f2; 
+}
+#third{
+   background-color: #e3ecdc; 
 }
