@@ -13,26 +13,24 @@ body{
 .banner-section-container{
     max-width: 1440px;
     height: 650px;
-    /* সব সময় border দিয়ে layout make করে ফেলব = Parent-Layout, তাহলে বোঝা যাবে = কোন জায়গায় কোন জিনিস  বসাবো */
-    /* border: 2px solid red; emni*/
+   /* border: 2px solid red; */
     background: rgba(229, 84, 115, 0.1);
     
 }
 .banner-content{
     display: flex;
     /* border: 2px solid indianred; */
-    /* se tar 100% theke 10% baad dise(daan dik theke baad dise), width hoy left to right basically */
     width: 90%;
-    /* Amic caitasi tumi shudhu daan dik thke na chere, baam dik theke 5 and daan dik theke 5 charo */
+  
     margin: 0 auto;
 
 }
 .banner-text-container{
-    /* Figma te er h/w nai || since dekhle bujha jai duita 50/50 = 50 kore vG */
+ 
     width: 40%;
-    /* border: 2px solid green; emni */
+    /* border: 2px solid green;  */
     height: 650px;
-    /* Amar content guli full screen niye, upore-niche r majhe lagbe hobe */
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +38,7 @@ body{
 }
 .banner-image-container{
     width: 50%;
-    /* border: 2px solid blue; emni */
+    /* border: 2px solid blue;  */
     height: 650px;
     display: flex;
     justify-content: center;
@@ -48,7 +46,7 @@ body{
 .banner-image-container img{
     width: 60%;
     height: 650px;
-    /* border: 2px solid black; */
+    /* border: 2px solid ; */
 }
 .banner-text-container button{
   margin-right: 390px;
@@ -80,16 +78,19 @@ body{
     gap: 20px;
     /* border: 2px solid violet; */
     margin-top: 80px;
+    justify-content: center;
+    align-items: center;
 }
 
 .first-image, 
 .second-image, 
 .third-image{
-    width: 450px;
-    height: 520px;
+    width: 400px;
+    height: 420px;
     border: 2px solid indianred;
     border-radius: 50% 50% 0 0;
-    /* oi image ta majhamajhi te chole ashbe */
+    padding: 100px 60px 0px 60px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
