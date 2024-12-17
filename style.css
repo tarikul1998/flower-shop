@@ -43,7 +43,7 @@ button:hover {
 }
 
 .container {
-  border: 5px solid blue;
+  border: 2px solid blue;
   width: 75%;
   max-width: 14440px;
   margin: 0 auto;
@@ -191,3 +191,29 @@ and buttone o ache tai sobair moddhe margin dilam eivabe*/
   max-width: 318px;
 }
 
+/* news-letter section */
+#newsletter{
+  margin: 128px 0;
+}
+#newsletter .newsletter-main{
+  background-image: url('Rectangle\ 7.png');
+  padding: 122px 0;
+}
+#newsletter form{
+  max-width: 800px;
+  /* form er input button arektu shamne egiye ashbe margin dile */
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+/* form itself ekta block element */
+/* form e [input] ekta inline element = take width dile se nite parbe nah */
+#newsletter form input{
+  /*width: 100%;* 605 diye dekhbo/ /*eikhanese full width nise tar parent(Form) er*/
+  /* flex er child ke = full width dite chaile use kori = flex-grow:1 */
+  flex-grow: 1;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 20px;
+}
