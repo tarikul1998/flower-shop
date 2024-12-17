@@ -197,6 +197,7 @@ and buttone o ache tai sobair moddhe margin dilam eivabe*/
 }
 #newsletter .newsletter-main{
   background-image: url('Rectangle\ 7.png');
+  background-repeat: no-repeat;
   padding: 122px 0;
 }
 #newsletter form{
